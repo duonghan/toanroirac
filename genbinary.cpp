@@ -1,4 +1,5 @@
 #include<iostream>
+#include<conio.h>
 
 using namespace std;
 
@@ -32,5 +33,6 @@ int main(){
 		cin>>n;
 		count=0;
 		Try(1);
+		getch();
 		return 0;
 }
